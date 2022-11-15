@@ -1,0 +1,49 @@
+html, body { 
+    background-color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2, h5, a, span {
+    color: black;
+
+}
+
+.p-2 {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#scoreList {
+    color: black;
+    font-size: 20px;
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+li {
+    counter-increment: li;
+}
+
+li::before {
+    content: "." counter(li);
+    color: pink;
+    display: inline-block;
+    width: 10px;
+    margin: auto;
+    text-align: right;
+    direction: rtl;
+}
+
+#scoresTitle {
+    padding: 10px;
+}
