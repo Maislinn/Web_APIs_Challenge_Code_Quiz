@@ -1,83 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset = "UTF-8"/>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+    <meta http-equiv = "X-UA-Compatible" content="ie=edge"/>
 
-
- <!--https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
-
-    <link rel="stylesheet" href="restart.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-
-    <title>CODE QUIZ</title>
-
+    <title>Code Quiz</title>
 </head>
-
 <body>
-
-    <header class="p2">
-        <strong><a href="highScores.html">View High Scores</a></strong>
-        <span id="timer" class="floatRight mr2">Time: 0</span>
+    <header>
+        <div class ="highscore">
+            <h2>Highscores</h2>
+            <ul id = "highscoreList"></ul>
+        </div>
+        <div class = "timer">
+          </div>
     </header>
 
-    <!--Home-->
-    <div class="container mt-5" id="home">
-        <div class="row justify-content-center mt-5 pt-3 pb-3">
-            <div class="col-10 col-lg-8 text-center">
-                <h1>JavaScript Coding Quiz Challenge</h1><br>
-                <h5><p>Try to answer the following code-related questions within the time limit.<br></h5>
-                <button type="button" id="startButton" class="button btn-info btn-lg">START QUIZ</button>
-            </div>
-        </div>
+    <!-- Start Page -->
+    <div class = "startPage"> </div>
+
+    <!-- Quiz Page -->
+    <div class = "quizHidden">
+        <div id="title"></div>
+    
+        <ul>
+            <li class="alt"></li>
+            <li class="alt"></li>
+            <li class="alt"></li>
+            <li class="alt"></li>
+        </ul>
+
+    <div class="result"></div>
     </div>
 
-    <!--Questions-->
-    <div class="container mt-5 d-none" id="quiz">
-        <div class="row justify-content-center mt-5 pt-3 pb-3">
-            <div class="col-10 col-lg-8" id="QA-block">
-                <h3 id="questions" class="mb-4">QUESTION</h3>
-                <ul id="title" class="list-unstyled">
-                    <li class="alts">A) </li>
-                    <li class="alts">B) </li>
-                    <li class="alts">C) </li>
-                    <li class="alts">D) </li>
-                </ul>
-                <p class="feedback"></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container mt-5 d-none" id="submit-score">
-        <div class="row justify-content-center mt-5 pt-3 pb-3">
-            <div class="col-10 col-lg-8">
-                <h2>Finished!</h2>
-                <p id="user-score"> </p>
-                <form class="form-group">
-                    <label for="new-score">Enter your name: </label>
-                    <input type="text" id="userName">
-                    <button type="button" class="button buttonInfo btn-sm submitButton">Join Hall Of Fame</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-
-  <!--Completed-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="questions.js"></script>
-    <script src="main.js"></script>
+    <script scr="main.js"></script>
 </body>
-
 </html>
+
+    
+
+
+    
