@@ -41,7 +41,7 @@ To use this REPO:
 
 ![Demo](/Demo-img.png)
 
-Visit the Deployed link here: https://maislinn.github.io/
+Visit the Deployed link here: https://maislinn.github.io/Web_APIs_Challenge_Code_Quiz/
    
 ## Features
 - HTML
