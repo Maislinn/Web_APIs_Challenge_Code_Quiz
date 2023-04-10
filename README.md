@@ -39,6 +39,8 @@ I have learned from thsi project, that it is important to plan out your file str
 ## Usage
 To use this REPO:
 
+![Demo](/Demo-img.png)
+
 Visit the Deployed link here: https://maislinn.github.io/
    
 ## Features
