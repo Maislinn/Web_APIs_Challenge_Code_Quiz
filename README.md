@@ -19,6 +19,8 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 
+I have learned from thsi project, that it is important to plan out your file structure before beginning, this was an early assignment that did not have a plan yet, and was therefore needing to be rebuilt. 
+
 ```
 ## Table of Contents
  * [Installation](#installation)

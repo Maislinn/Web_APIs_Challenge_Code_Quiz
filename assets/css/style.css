@@ -1,0 +1,69 @@
+
+/*body basic styling*/
+body {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2%;
+  }
+
+/*Heading style*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  }
+
+header li {
+  text-decoration: none;
+  }
+
+
+  /*styling for the card box*/
+.textarea {
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 80vw;
+    background-color: lightblue;
+    padding-top: 30px;
+    border-radius: 30px;
+  }
+
+  /*button styling*/
+  .button-start {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  }
+
+  /*bquestion button stylingg*/
+  
+  .button-start:hover, .button:hover {
+    background-color: #0a5371;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  /*question styling*/
+  .button {
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 10%;
+    align-items: center;
+    background-color: #0a5371;
+    color: white;
+    border-radius: 30px;
+    width: 80%;
+  }
+
+  #answers {
+    padding-bottom: 30px;
+  }
